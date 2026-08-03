@@ -118,9 +118,7 @@ export default function HomeScreen({ cartCount, onSelectDish, onGoToCart, onQuic
                       e.stopPropagation();
                       onQuickAdd(dish);
                     }}
-                  >
-                    Order Now!
-                  </button>
+                ></button>
                 </div>
               </div>
               <div className="hero-recipe-preview">
